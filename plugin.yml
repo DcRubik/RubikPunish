@@ -1,0 +1,8 @@
+name: RubikPunish
+main: punish.Punish
+version: 0.1
+commands:
+  p:
+    description: DcRubik's maded punish command
+  punish:
+    description: DcRubik's maded punish command

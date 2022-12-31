@@ -146,7 +146,7 @@
 /* 146 */       if (duration == -1.0D) {
 /* 147 */         time = F.time("Permanent");
 /*     */       }
-/* 149 */       UtilServer.broadcast(F.main("Punish", String.valueOf(F.elem((caller == null) ? "Mineplex Anti-Cheat" : caller.getName())) + " muted " + F.elem(playerName) + " because of " + F.elem(reason) + " for " + time + "."));
+/* 149 */       UtilServer.broadcast(F.main("Punish", String.valueOf(F.elem((caller == null) ? "DcRubik Anti-Cheat" : caller.getName())) + " muted " + F.elem(playerName) + " because of " + F.elem(reason) + " for " + time + "."));
 /* 150 */     } else if (category.equals(Category.Warning)) {
 /* 151 */       Bukkit.getPlayerExact(playerName).sendMessage(String.valueOf(F.main("Punish", F.elem((caller == null) ? "Mineplex Anti-Cheat" : caller.getName()))) + " warned you because of " + F.elem(reason) + ".");
 /* 152 */       caller.sendMessage(String.valueOf(F.main("Punish", "You warned " + F.elem(playerName) + " because of " + F.elem(reason))) + ".");
